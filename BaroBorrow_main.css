@@ -19,8 +19,23 @@ div {
   background-color: rgb(219, 234, 254);
 }
 
-#introduce_div {
-  font-size: large;
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+div {
+  text-align: center;
+}
+
+#field2 {
+  background-color: rgb(219, 234, 254);
+}
+
+fieldset {
+  width: 80%;
+  margin: auto;
 }
 
 * {

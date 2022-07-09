@@ -8,16 +8,21 @@
     <title>Document</title>
   </head>
   <body>
-    <h3>BaroBorrow main</h3>
     <div>
+      <h3>
+        빌리기, 빌려주기, 검색, 마이페이지, LOGOUT 버튼은 활성화 되어있습니다.
+      </h3>
       <fieldset id="field1">
         <p>
-          <button type="button" onclick="location.href='Lend.html'">
+          <img src="./logo.png" width="200x" />
+          <button id="b1" type="button" onclick="location.href='Lend.html'">
             빌리기
           </button>
           <button type="button" onclick="location.href='Borrow.html'">
             빌려주기
           </button>
+          <textarea rows="1" cols="50"></textarea>
+          <img src="./search.png" width="17px" height="17px" />
           <button type="button" onclick="location.href='Mypage.html'">
             <img src="./user.png" width="17px" height="17px" />
           </button>
@@ -25,6 +30,8 @@
       </fieldset>
       <fieldset id="field2">
         <form>
+          <img src="./menu.png" width="17px" />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <select name="local">
             <option value="1" selected>Borrow 지역(시/도)</option>
             <option value="2">서울특별시</option>
@@ -57,7 +64,7 @@
           <button type="button" onclick="alert('로그인 페이지')">LOGOUT</button>
         </form>
       </fieldset>
-      <img src="./BaroBorrow_main.png" width="60%" height="100%" />
+      <img src="./BaroBorrow_main.png" width="82.5%" />
     </div>
   </body>
 </html>
