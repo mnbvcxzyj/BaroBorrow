@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./BaroBorrow_main.css" />
-    <title>Document</title>
+    <title>BaroBorrow Introduce</title>
   </head>
   <body>
     <div>
       <h3>
-        빌리기, 빌려주기, 검색, 마이페이지, LOGOUT 버튼은 활성화 되어있습니다.
+        빌리기, 빌려주기, 검색, 마이페이지, LOGOUT 버튼을 누르면 설명 페이지로
+        이동합니다.
       </h3>
       <fieldset id="field1">
         <p>
@@ -22,7 +23,9 @@
             빌려주기
           </button>
           <textarea rows="1" cols="50"></textarea>
-          <img src="./search.png" width="17px" height="17px" />
+          <button id="b1" type="button" onclick="location.href='search.html'">
+            <img src="./search.png" width="17px" height="17px" />
+          </button>
           <button type="button" onclick="location.href='Mypage.html'">
             <img src="./user.png" width="17px" height="17px" />
           </button>
@@ -61,7 +64,9 @@
             <option value="3">대여가능만 보기</option>
           </select>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="alert('로그인 페이지')">LOGOUT</button>
+          <button type="button" onclick="location.href='login.html'">
+            LOGOUT
+          </button>
         </form>
       </fieldset>
       <img src="./BaroBorrow_main.png" width="82.5%" />
