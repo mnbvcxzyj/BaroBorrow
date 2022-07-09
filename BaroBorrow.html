@@ -1,9 +1,59 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./BaroBorrow_main.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h3>BaroBorrow main</h3>
+    <div>
+      <fieldset id="field1">
+        <p>
+          <button type="button" onclick="alert('빌리기')">빌리기</button>
+          <button type="button" onclick="alert('빌려주기')">빌려주기</button>
+          <button type="button" onclick="alert('마이페이지')">
+            <img src="./user.png" width="17px" height="17px" />
+          </button>
+        </p>
+      </fieldset>
+      <fieldset id="field2">
+        <form>
+          <select name="local">
+            <option value="1" selected>Borrow 지역(시/도)</option>
+            <option value="2">서울특별시</option>
+            <option value="3">경기도</option>
+            <option value="4">강원도</option>
+            <option value="5">충청북도</option>
+            <option value="6">세종특별시</option>
+          </select>
+          <select name="detailed_local">
+            <option value="1" selected>Borrow 지역(구)</option>
+            <option value="2">강남구</option>
+            <option value="3">송파구</option>
+            <option value="4">강동구</option>
+            <option value="5">광진구</option>
+            <option value="6">성동구</option>
+          </select>
+          <select name="local">
+            <option value="1" selected>Borrow 기간(날짜)</option>
+            <option value="2">서울특별시</option>
+            <option value="3">경기도</option>
+            <option value="4">강원도</option>
+            <option value="5">충청북도</option>
+          </select>
+          <select name="situ">
+            <option value="1" selected>Borrow 상태</option>
+            <option value="2">모두 보기</option>
+            <option value="3">대여가능만 보기</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="alert('로그인 페이지')">LOGOUT</button>
+        </form>
+      </fieldset>
+      <img src="./BaroBorrow_main.png" width="50%" height="100%" />
+    </div>
+  </body>
 </html>
